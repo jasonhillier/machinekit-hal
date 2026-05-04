@@ -14,6 +14,7 @@
 #include <google/protobuf/text_format.h>
 
 using namespace google::protobuf;
+using namespace std;
 
 static machinetalk::Container command, reply;
 
