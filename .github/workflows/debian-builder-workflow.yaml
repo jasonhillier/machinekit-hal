@@ -26,6 +26,12 @@
 name: Test application and publish packages (Debian linux)
 
 on:
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
   push:
     branches:
     - '*'
