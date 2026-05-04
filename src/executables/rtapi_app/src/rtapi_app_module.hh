@@ -28,6 +28,8 @@
 #include <dlfcn.h>
 #include <link.h>
 
+using namespace std;
+
 class Module
 {
   public:
